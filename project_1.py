@@ -1,4 +1,6 @@
+
 restaurants = [
+    [
     {
         "name":"JAVA",
         "location":"kawempe",
@@ -44,9 +46,40 @@ restaurants = [
         "closing Hour":"06:00pm",
         "restaurant no":"05"
     }
+    ],
+    [
+        {
+            "restaurant no": "01",
+            "meal no":" 01",
+            "meal details":["CHICKEN PILAO: 20000","PLAIN PIALO: 10000","BEEF PILAO:25000",]
+        }
+    ]
 ]
-print(f"\n\t\tRESTAURANTS AVAILABLE")
+
+'''meals = [
+    {
+        "meal no":"1",
+        ""
+    }
+]'''
+print(f"\n\t*****RESTAURANTS AVAILABLE*****\n")
 counter = 0
 for restaurant in restaurants:
     counter += 1
     print(f"\t0{counter}.) {restaurant["name"]}\n")
+restaurant_choice = input('ENTER RESTAURANT NUMBER OR "Q" TO QUIT: ')
+for restaurant in restaurants:
+    if restaurant_choice == "01":
+        name = "JAVA"
+    elif restaurant_choice == "02":
+        name = "HEAVEN STONE"
+    elif restaurant_choice == "03":
+        name = "MIDDLE EAST"
+    elif restaurant_choice == "04":
+        name = "CHICKEN TONIGHT"
+    elif restaurant_choice == "05":
+        name = "DA VEGAS"
+    elif restaurant_choice.upper() == "Q":
+        break
+
+print(f"\nWELCOME TO {name} RESTAURANT")
