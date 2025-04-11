@@ -21,7 +21,7 @@ restaurants = [
         "name":"MIDDLE EAST",
         "location":"MAKINDYE",
         "contact_person":"KAKANDE SHARIF",
-        "contact":"0758102362",
+        "contact":"0758102365",
         "opening Hour":"08:00am",
         "closing Hour":"10:50pm",
         "restaurant no":"03"
@@ -30,7 +30,7 @@ restaurants = [
         "name":"CHICKEN TONIGHT",
         "location":"WANDEGEYA",
         "contact_person":"GUMA RODNEY",
-        "contact":"0758102361",
+        "contact":"0758102364",
         "opening Hour":"09:00am",
         "closing Hour":"06:00pm",
         "restaurant no":"04"
