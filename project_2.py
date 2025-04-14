@@ -1,5 +1,5 @@
 restaurant = {
-    "restaurant no":"01",
+    "restaurant no":"001",
     "name":"JAVA",
     "location":"kawempe",
     "contact_person":"SHAFIK",
@@ -40,4 +40,6 @@ meals = [
         "status":"available"
     }
 ]
-  
+
+print(restaurant)
+      
